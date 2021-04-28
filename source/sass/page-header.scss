@@ -1,0 +1,43 @@
+.page-header {
+  background-color: #171717;
+  background-image: url("../image/header-bike-desktop.jpg");
+  width: 1440px;
+  height: 825px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page-header__logo {
+  position: absolute;
+  top: 318px;
+  left: 280px;
+}
+
+@media (max-width: $tablet-width) {
+  .page-header {
+    width: 767px;
+    height: 340px;
+    background-image: url("../image/header-bike-tablet.jpg");
+    margin: 0;
+    overflow: hidden;
+  }
+
+  .page-header__logo {
+    left: 20px;
+    top: 20px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .page-header {
+    width: 320px;
+    min-height: 390px;
+    background-image: url("../image/header-bike-mobile.jpg");
+    margin: 0;
+  }
+
+  .page-header__logo {
+    left: 16px;
+    top: 20px;
+  }
+}

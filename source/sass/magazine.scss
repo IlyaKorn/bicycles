@@ -1,0 +1,70 @@
+.magazine {
+  width: 393px;
+  color: $white;
+  position: absolute;
+  top: -513px;
+  left: 72px;
+}
+
+.magazine__title {
+  font-size: 46px;
+  font-weight: bold;
+  line-height: 64px;
+  letter-spacing: -0.005em;
+  font-style: normal;
+  margin-bottom: 0;
+}
+
+.magazine__description {
+  font-size: 20px;
+  font-weight: 300;
+  opacity: 0.8;
+  margin-top: 24px;
+}
+
+@media (max-width: $tablet-width) {
+
+  .magazine {
+    top: -205px;
+    left: 185px;
+  }
+
+  .magazine__title {
+    width: 525px;
+    margin-top: 0;
+    font-size: 30px;
+    line-height: 42px;
+  }
+
+  .magazine__description {
+    max-width: 435px;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.005em;
+    line-height: 32px;
+    padding-left: 5px;
+    margin-top: 19px;
+  }
+}
+
+@media (max-width: $mobile-width) and (min-width: 320px) {
+  .magazine {
+    top: -269px;
+    left: 0;
+    width: 288px;
+  }
+
+  .magazine__title {
+    width: 288px;
+    margin-top: 0;
+    padding-left: 61px;
+    box-sizing: border-box;
+  }
+
+  .magazine__description {
+    width: 292px;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+}
