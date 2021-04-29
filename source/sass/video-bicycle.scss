@@ -1,7 +1,7 @@
 .video-bicycle {
   width: 100%;
   min-height: 706px;
-  background: #131314;
+  background: $black-gray;
   padding-top: 120px;
   position: relative;
   box-sizing: border-box;
@@ -36,8 +36,8 @@
 .video-bicycle__presentation {
   width: 929px;
   height: 522px;
-  background-color: #171717;
   background: url("../image/bike-preview-desktop.png");
+  background-color: #171717;
   position: absolute;
   left: 256px;
   top: 282px;
@@ -51,7 +51,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  background-color: #0AD9C6;
+  background-color: $light-blue;
   position: absolute;
   left: 432px;
   top: 229px;
@@ -90,7 +90,7 @@
     height: 90px;
     position: absolute;
     left: 206px;
-    top:  96px;
+    top: 96px;
   }
 
   .video-bicycle__icon-play {
@@ -126,7 +126,7 @@
     width: 65px;
     height: 65px;
     left: 112px;
-    top:  48px;
+    top: 48px;
   }
 
   .video-bicycle__icon-play {

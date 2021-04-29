@@ -26,14 +26,12 @@ headerToggle.addEventListener('click', function () {
 });
 
 for (let anchor of anchors) {
-  anchor.addEventListener('click', function(evt) {
+  anchor.addEventListener('click', function (evt) {
     evt.preventDefault();
     const blockId = anchor.getAttribute('href');
     document.querySelector('' + blockId).scrollIntoView({
       behavior: 'smooth',
       block: 'start'
-    })
-  })
-};
-
-
+    });
+  });
+}

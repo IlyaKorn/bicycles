@@ -1,6 +1,6 @@
 .bicycle-views {
   width: 100%;
-  background: #F6F7F9;
+  background: $light-white;
   margin-top: 153px;
   min-height: 1038px;
 }
@@ -10,7 +10,7 @@
   font-size: 30px;
   line-height: 30px;
   letter-spacing: -0.005em;
-  color: #1F1F1F;
+  color: $black-light;
   display: block;
   width: 288px;
   margin: 0 auto;
@@ -73,7 +73,7 @@
   font-weight: 600;
   font-size: 22px;
   line-height: 34px;
-  letter-spacing: -0.5px
+  letter-spacing: -0.5px;
 }
 
 @media (max-width: $tablet-width) {

@@ -32,7 +32,7 @@
 .feedback__name,
 .feedback__nubmer {
   background: $white;
-  border: 1px solid #C9CCD4;
+  border: 1px solid $gray;
   padding-left: 30px;
 
   &::placeholder {
@@ -102,5 +102,4 @@
     text-align: center;
     letter-spacing: -0.005em;
   }
-
 }
