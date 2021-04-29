@@ -1,10 +1,15 @@
 'use strict';
+
 const mainHeader = document.querySelector('.main-nav');
 const headerToggle = document.querySelector('.main-nav__open-menu');
 const siteList = document.querySelector('.site-list');
 const pageBody = document.querySelector('.page-body');
+const anchors = document.querySelectorAll('a[href*="#');
 
 mainHeader.classList.remove('main-nav--nojs"');
+mainHeader.classList.add('main-nav--js');
+headerToggle.classList.remove('visually-hidden');
+siteList.classList.remove('site-list--nojs');
 
 headerToggle.addEventListener('click', function () {
   if (mainHeader.classList.contains('main-nav--closed')) {
@@ -19,3 +24,16 @@ headerToggle.addEventListener('click', function () {
     siteList.style.display = 'none';
   }
 });
+
+for (let anchor of anchors) {
+  anchor.addEventListener('click', function(evt) {
+    evt.preventDefault();
+    const blockId = anchor.getAttribute('href');
+    document.querySelector('' + blockId).scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
+  })
+};
+
+

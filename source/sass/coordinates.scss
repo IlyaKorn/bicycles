@@ -1,7 +1,88 @@
 .coordinates {
+  width: 957px;
+  margin: 0 auto;
+  margin-top: 249px;
+}
+
+.coordinates__map {
+  margin-top: 41px;
+  height: 530px;
   width: 100%;
 }
 
 .coordinates__iframe {
   width: 100%;
+  height: 100%;
+}
+
+.coordinates__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  color: #1F1F1F;
+  text-align: center;
+  margin: 0;
+  display: block;
+  margin-right: 4px;
+  letter-spacing: -0.005em;
+}
+
+.coordinates__description {
+  width: 555px;
+  display: block;
+  margin: 0 auto;
+  font-size: 17px;
+  line-height: 31px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+@media (max-width: $tablet-width) {
+  .coordinates {
+    margin-top: 155px;
+    width: 698px;
+  }
+
+  .coordinates__map {
+    margin-top: 20px;
+    height: 545px;
+  }
+
+  .coordinates__title {
+    font-size: 24px;
+    margin-right: 0;
+    margin-left: 3px;
+  }
+
+  .coordinates__description {
+    width: 629px;
+    font-size: 17px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: $mobile-width) and (min-width: 320px) {
+  .coordinates {
+    margin-top: 119px;
+    width: 100%;
+  }
+
+  .coordinates__title {
+    font-size: 24px;
+    margin-right: 0;
+    margin-left: 3px;
+    font-size: 18px;
+    line-height: 30px;
+    padding-top: 0;
+  }
+
+  .coordinates__description {
+    width: 270px;
+    margin-top: 20px;
+  }
+
+  .coordinates__map {
+    margin-top: 20px;
+    height: 250px;
+  }
 }

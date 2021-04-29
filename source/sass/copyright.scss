@@ -1,0 +1,61 @@
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+  margin-bottom: 98px;
+  margin-left: 28px;
+}
+
+.copyright__email,
+.copyright__number {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.copyright__email {
+  line-height: 22px;
+  margin-right: 127px;
+}
+
+.copyright__number {
+  line-height: 32px;
+}
+
+.copyright__icon-mail {
+  position: absolute;
+  top: 0;
+  left: -42px;
+}
+
+.copyright__icon-number {
+  position: absolute;
+  top: 2px;
+  left: -35px;
+}
+
+@media (max-width: $tablet-width) {
+  .copyright {
+    margin-top: 17px;
+    margin-bottom: 53px;
+  }
+}
+
+@media (max-width: $mobile-width) and (min-width: 320px) {
+  .copyright {
+    flex-direction: column;
+    margin-top: 31px;
+    margin-bottom: 51px;
+    justify-content: center;
+  }
+
+  .copyright__email {
+    margin-right: 0;
+  }
+
+  .copyright__number {
+    line-height: 32px;
+    margin-top: 22px;
+  }
+}

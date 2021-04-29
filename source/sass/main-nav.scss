@@ -70,7 +70,6 @@
   &::after {
     transform: rotate(-45deg);
   }
-
 }
 
 @media (max-width: $tablet-width) {
@@ -89,6 +88,10 @@
   }
 
   .main-nav__list::after {
+    display: none;
+  }
+
+  .main-nav--js .main-nav__list {
     display: none;
   }
 }

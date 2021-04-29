@@ -1,6 +1,176 @@
+.bicycle-views {
+  width: 100%;
+  background: #F6F7F9;
+  margin-top: 153px;
+  min-height: 1038px;
+}
+
+.bicycle-views__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.005em;
+  color: #1F1F1F;
+  display: block;
+  width: 288px;
+  margin: 0 auto;
+  padding-top: 149px;
+}
+
+.bicycle-views__list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 51px;
+}
+
+.bicycle-views__item {
+  margin-right: 50px;
+  position: relative;
+  z-index: 100;
+}
+
+.bicycle-views__item--road {
+  margin-top: 10px;
+}
+
+.bicycle-views__item--rock {
+  margin-top: 39px;
+}
+
+.bicycle-views-icon-circle {
+  position: absolute;
+  left: -60px;
+  top: 156px;
+  z-index: -1;
+}
+
+.bicycle-views-icon-square--top {
+  position: absolute;
+  left: -19px;
+  top: -18px;
+}
+
+.bicycle-views-icon-square--down {
+  position: absolute;
+  bottom: 53px;
+  right: -23px;
+}
+
+.bicycle-views-icon-circle--child {
+  position: absolute;
+  left: 284px;
+  top: -33px;
+}
+
+.bicycle-views__bike-name {
+  margin-top: 11px;
+  width: 342px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 34px;
+  letter-spacing: -0.5px
+}
+
 @media (max-width: $tablet-width) {
+  .bicycle-views {
+    margin-top: 70px;
+    min-height: 949px;
+  }
+
+  .bicycle-views__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 41px;
+    width: 288px;
+    padding-top: 50px;
+    text-align: center;
+  }
+
+  .bicycle-views__list {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
   .bicycle-views__photo {
     width: 270px;
     height: 300px;
+  }
+
+  .bicycle-views__item {
+    width: 270px;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 104px;
+  }
+
+  .bicycle-views-icon-circle {
+    width: 127px;
+    height: 127px;
+    left: -38px;
+    top: 201px;
+  }
+
+  .bicycle-views-icon-square {
+    display: none;
+  }
+
+  .bicycle-views-icon-circle--child {
+    left: 227px;
+    top: -20px;
+    width: 68px;
+    height: 68px;
+  }
+
+  .bicycle-views__item--child {
+    margin-bottom: 124px;
+    margin-top: 0;
+  }
+
+  .bicycle-views__bike-name {
+    width: 238px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 11px;
+  }
+}
+
+@media (max-width: $mobile-width) and (min-width: 320px) {
+  .bicycle-views {
+    margin-top: 77px;
+    min-height: 1319px;
+  }
+
+  .bicycle-views-icon-circle {
+    left: -25px;
+    top: 201px;
+  }
+
+  .bicycle-views__item {
+    width: 270px;
+    height: 300px;
+    margin-bottom: 40px;
+  }
+
+  .bicycle-views__item--road {
+    margin-top: 30px;
+  }
+
+  .bicycle-views__item--rock {
+    margin-top: 55px;
+  }
+
+  .bicycle-views__item--child {
+    margin-top: 56px;
+  }
+
+  .bicycle-views-icon-circle--child {
+    left: 217px;
+    top: -18px;
+    z-index: 100;
   }
 }

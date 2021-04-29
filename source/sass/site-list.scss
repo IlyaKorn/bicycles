@@ -29,7 +29,6 @@
   .site-list {
     justify-content: center;
     width: 625px;
-    display: none;
   }
 
   .site-list .site-list__item {
@@ -69,14 +68,9 @@
     padding: 17px 35px 17px 16px;
     color: #48494D;
     opacity: 1;
-    display: inline-block;
+    display: block;
     width: 269px;
     box-sizing: border-box;
-  }
-
-  .site-list__item::after {
-    content: "";
-    background: url("../image/sprite")
   }
 
   .site-list__icon-arrow-right {
@@ -86,5 +80,21 @@
     top: 23px;
     width: 15px;
     height: 15px;
+  }
+
+  .site-list--nojs {
+    width: 320px;
+    min-height: 568px;
+    background-color: $white;
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 101;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  .site-list--nojs .site-list__item:first-child {
+    margin-top: 0;
   }
 }
