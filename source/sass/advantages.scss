@@ -101,3 +101,13 @@
     margin-top: 84px;
   }
 }
+
+@media (max-width: $desktop-width) and (min-width: 320px) {
+  .advantages__title {
+    font-size: calc(24px + (30 - 24) * ((100vw - 320px) / (1200 - 320)));
+  }
+
+  .advantages .advantages__item {
+    margin-right: calc(38 * ((100vw - 320px) / (1200 - 320)));
+  }
+}

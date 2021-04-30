@@ -94,6 +94,7 @@
   .bicycle-views__list {
     margin-top: 0;
     margin-bottom: 0;
+    margin-left: 25px;
   }
 
   .bicycle-views__photo {
@@ -172,5 +173,16 @@
     left: 217px;
     top: -18px;
     z-index: 100;
+  }
+}
+
+@media (max-width: $desktop-width) and (min-width: 320px) {
+  .bicycle-views {
+    width: calc(320px + (1440 - 320) * ((100vw - 320px) / (1440 - 320)));
+    background-size: cover;
+  }
+
+  .bicycle-views__item {
+    margin-right: calc(25px + (50 - 25) * ((100vw - 320px) / (1200 - 320)));
   }
 }
