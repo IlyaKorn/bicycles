@@ -5,7 +5,7 @@
   min-height: 1038px;
 }
 
-.bicycle-views__title {
+.bicycle-views h2 {
   font-weight: 600;
   font-size: 30px;
   line-height: 30px;
@@ -66,7 +66,7 @@
   top: -33px;
 }
 
-.bicycle-views__bike-name {
+.bicycle-views p {
   margin-top: 11px;
   width: 342px;
   text-align: center;
@@ -82,7 +82,7 @@
     min-height: 949px;
   }
 
-  .bicycle-views__title {
+  .bicycle-views h2 {
     font-weight: 600;
     font-size: 24px;
     line-height: 41px;
@@ -97,7 +97,7 @@
     margin-left: 25px;
   }
 
-  .bicycle-views__photo {
+  .bicycle-views img {
     width: 270px;
     height: 300px;
   }
@@ -132,7 +132,7 @@
     margin-top: 0;
   }
 
-  .bicycle-views__bike-name {
+  .bicycle-views p {
     width: 238px;
     text-align: center;
     margin: 0 auto;

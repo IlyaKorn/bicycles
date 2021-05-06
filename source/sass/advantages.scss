@@ -2,7 +2,7 @@
   margin-top: 150px;
 }
 
-.advantages__title {
+.advantages h2 {
   color: $black-light;
   font-weight: 600;
   font-size: 30px;
@@ -71,7 +71,7 @@
     margin-bottom: 0;
   }
 
-  .advantages__title {
+  .advantages h2 {
     font-weight: 600;
     line-height: 41px;
     margin: 0 auto;
@@ -82,7 +82,7 @@
 }
 
 @media (max-width: $mobile-width) and (min-width: 320px) {
-  .advantages__title {
+  .advantages h2 {
     width: 290px;
   }
 
@@ -103,7 +103,7 @@
 }
 
 @media (max-width: $desktop-width) and (min-width: 320px) {
-  .advantages__title {
+  .advantages h2 {
     font-size: calc(24px + (30 - 24) * ((100vw - 320px) / (1200 - 320)));
   }
 

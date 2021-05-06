@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-.magazine__title {
+.magazine h1 {
   font-size: 46px;
   font-weight: bold;
   line-height: 64px;
@@ -17,7 +17,7 @@
   margin-bottom: 0;
 }
 
-.magazine__description {
+.magazine p {
   font-size: 20px;
   font-weight: 300;
   opacity: 0.8;
@@ -33,14 +33,14 @@
     width: 525px;
   }
 
-  .magazine__title {
+  .magazine h1 {
     width: 525px;
     margin-top: 0;
     font-size: 30px;
     line-height: 42px;
   }
 
-  .magazine__description {
+  .magazine p {
     width: 435px;
     font-size: 18px;
     line-height: 32px;
@@ -58,23 +58,23 @@
     width: 288px;
   }
 
-  .magazine__title {
+  .magazine h1 {
     margin-left: 15px;
   }
 
-  .magazine__description {
+  .magazine p {
     margin-left: 15px;
   }
 }
 
 @media (max-width: $mobile-width) and (min-width: 320px) {
-  .magazine__title {
+  .magazine h1 {
     width: 288px;
     margin-top: 0;
     box-sizing: border-box;
   }
 
-  .magazine__description {
+  .magazine p {
     width: 292px;
     box-sizing: border-box;
   }

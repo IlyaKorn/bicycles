@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 
-.video-bicycle__title {
+.video-bicycle h2 {
   font-weight: 600;
   font-size: 30px;
   line-height: 30px;
@@ -19,7 +19,7 @@
   width: 350px;
 }
 
-.video-bicycle__description {
+.video-bicycle p {
   font-weight: 300;
   font-size: 16px;
   line-height: 28px;
@@ -67,12 +67,12 @@
     padding-top: 70px;
   }
 
-  .video-bicycle__title {
+  .video-bicycle h2 {
     font-size: 24px;
     width: 280px;
   }
 
-  .video-bicycle__description {
+  .video-bicycle p {
     width: 429px;
   }
 
@@ -105,11 +105,11 @@
     padding-top: 84px;
   }
 
-  .video-bicycle__title {
+  .video-bicycle h2 {
     width: 280px;
   }
 
-  .video-bicycle__description {
+  .video-bicycle p {
     width: 288px;
   }
 

@@ -7,7 +7,7 @@
   top: 305px;
 }
 
-.feedback__title {
+.feedback p {
   width: 327px;
   font-size: 17px;
   font-weight: 600;
@@ -16,9 +16,8 @@
   margin-bottom: 0;
 }
 
-.feedback__name,
-.feedback__nubmer,
-.feedback__pull {
+.feedback input,
+.feedback button {
   width: 327px;
   height: 48px;
   border-radius: 4px;
@@ -29,8 +28,7 @@
   margin-top: 20px;
 }
 
-.feedback__name,
-.feedback__nubmer {
+.feedback input {
   background: $white;
   border: 1px solid $gray;
   padding-left: 30px;
@@ -43,7 +41,7 @@
   }
 }
 
-.feedback__pull {
+.feedback button {
   background: $light-blue;
   font-size: 15px;
   line-height: 21px;
@@ -59,42 +57,39 @@
     max-width: 321px;
   }
 
-  .feedback__title {
+  .feedback p {
     color: $black;
     max-width: 321px;
     margin-top: 70px;
   }
 
-  .feedback__name,
-  .feedback__nubmer,
-  .feedback__pull {
+  .feedback input,
+  .feedback button {
     width: 321px;
   }
 
-  .feedback__name {
+  .feedback input {
     margin-top: 30px;
   }
 
-  .feedback__name,
-  .feedback__nubmer {
+  .feedback input {
     padding-left: 21px;
   }
 
-  .feedback__pull {
+  .feedback button {
     height: 51px;
   }
 }
 
 @media (max-width: $mobile-width) and (min-width: 320px) {
-  .feedback__name,
-  .feedback__nubmer,
-  .feedback__pull {
+  .feedback input,
+  .feedback button {
     width: 288px;
     align-self: center;
     margin-top: 20px;
   }
 
-  .feedback__title {
+  .feedback p {
     max-width: 288px;
     display: block;
     margin: 0 auto;
@@ -105,13 +100,12 @@
 }
 
 @media (max-width: $desktop-width) and (min-width: 320px) {
-  .feedback__title {
+  .feedback p {
     width: calc(288px + (327 - 288) * ((100vw - 320px) / (1200 - 320)));
   }
 
-  .feedback__name,
-  .feedback__nubmer,
-  .feedback__pull {
+  .feedback input,
+  .feedback button {
     width: calc(288px + (327 - 288) * ((100vw - 320px) / (1200 - 320)));
     font-size: 15px;
   }

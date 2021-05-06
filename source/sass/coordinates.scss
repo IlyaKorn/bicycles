@@ -15,7 +15,7 @@
   height: 100%;
 }
 
-.coordinates__title {
+.coordinates h2 {
   font-weight: 600;
   font-size: 30px;
   line-height: 30px;
@@ -27,7 +27,7 @@
   letter-spacing: -0.005em;
 }
 
-.coordinates__description {
+.coordinates p {
   width: 555px;
   display: block;
   margin: 0 auto;
@@ -48,13 +48,13 @@
     height: 545px;
   }
 
-  .coordinates__title {
+  .coordinates h2 {
     font-size: 24px;
     margin-right: 0;
     margin-left: 3px;
   }
 
-  .coordinates__description {
+  .coordinates p {
     width: 629px;
     font-size: 17px;
     margin-top: 20px;
@@ -67,7 +67,7 @@
     width: 100%;
   }
 
-  .coordinates__title {
+  .coordinates h2 {
     margin-right: 0;
     margin-left: 3px;
     font-size: 18px;
@@ -75,7 +75,7 @@
     padding-top: 0;
   }
 
-  .coordinates__description {
+  .coordinates p {
     width: 270px;
     margin-top: 20px;
   }
