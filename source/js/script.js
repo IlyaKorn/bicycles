@@ -37,7 +37,7 @@ for (let anchor of anchors) {
 }
 
 
-const element = document.querySelector('.input-email');
+const element = document.querySelector('.feedback__input-email');
 const maskOptions = {
   mask: '+{7}(000)000-00-00'
 };

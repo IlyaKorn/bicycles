@@ -56,7 +56,9 @@
   .feedback p {
     color: $black;
     max-width: 321px;
-    margin-top: 70px;
+    margin-top: 0;
+    font-size: 18px;
+    letter-spacing: -0.005em;
   }
 
   .feedback input,
@@ -65,16 +67,24 @@
   }
 
   .feedback input {
-    margin-top: 30px;
+    margin-top: 32px;
     padding-left: 21px;
   }
 
   .feedback button {
     height: 51px;
   }
+
+  .feedback .feedback__input-email {
+    margin-top: 19px;
+  }
 }
 
 @media (max-width: $mobile-width) and (min-width: 320px) {
+  .feedback {
+    margin-bottom: 71px;
+  }
+
   .feedback input,
   .feedback button {
     width: 288px;
@@ -89,17 +99,5 @@
     margin-top: 70px;
     text-align: center;
     letter-spacing: -0.005em;
-  }
-}
-
-@media (max-width: $desktop-width) and (min-width: 320px) {
-  .feedback p {
-    width: calc(288px + (327 - 288) * ((100vw - 320px) / (1200 - 320)));
-  }
-
-  .feedback input,
-  .feedback button {
-    width: calc(288px + (327 - 288) * ((100vw - 320px) / (1200 - 320)));
-    font-size: 15px;
   }
 }

@@ -27,7 +27,8 @@
     background-repeat: no-repeat;
     margin: 0 auto;
     overflow: hidden;
-    background-size: 100% 50%;
+    background-size: 100% 340px;
+    min-height: 753px;
   }
 
   .page-header__logo {
@@ -43,10 +44,11 @@
 @media (max-width: $mobile-width) {
   .page-header {
     width: 320px;
-    min-height: 390px;
+    min-height: 750px;
     background-image: url("../image/header-bike-mobile.jpg");
-    background-size: 100% 50%;
+    background-size: 100% 390px;
     margin: 0 auto;
+    background-position: 50% 0;
   }
 
   .page-header__logo {

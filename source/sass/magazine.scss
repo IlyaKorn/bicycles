@@ -29,8 +29,9 @@
   .magazine {
     margin: 0 auto;
     margin-top: 135px;
-    margin-bottom: 150px;
+    margin-bottom: 130px;
     width: 525px;
+    padding-top: 0;
   }
 
   .magazine h1 {
@@ -38,6 +39,7 @@
     margin-top: 0;
     font-size: 30px;
     line-height: 42px;
+    text-align: center;
   }
 
   .magazine p {
@@ -60,15 +62,19 @@
   }
 
   .magazine h1 {
-    margin-left: 15px;
+    margin-left: 0;
   }
 
   .magazine p {
-    margin-left: 15px;
+    margin-left: 0;
   }
 }
 
 @media (max-width: $mobile-width) and (min-width: 320px) {
+  .magazine {
+    margin-bottom: 51px;
+  }
+
   .magazine h1 {
     font-size: calc(30px + (46 - 30) * ((100vw - 320px) / (1200 - 320)));
     width: 288px;

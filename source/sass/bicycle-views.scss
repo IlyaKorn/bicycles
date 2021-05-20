@@ -94,7 +94,7 @@
   .bicycle-views__list {
     margin-top: 0;
     margin-bottom: 0;
-    margin-left: 25px;
+    margin-left: 47px;
   }
 
   .bicycle-views img {
@@ -154,7 +154,7 @@
   .bicycle-views__item {
     width: 270px;
     height: 300px;
-    margin-bottom: 40px;
+    margin-bottom: 66px;
   }
 
   .bicycle-views__item--road {
@@ -180,9 +180,5 @@
   .bicycle-views {
     width: calc(320px + (1440 - 320) * ((100vw - 320px) / (1440 - 320)));
     background-size: cover;
-  }
-
-  .bicycle-views__item {
-    margin-right: calc(25px + (50 - 25) * ((100vw - 320px) / (1200 - 320)));
   }
 }

@@ -46,7 +46,6 @@
 
 @media (max-width: $mobile-width) and (min-width: 320px) {
   .copyright {
-    flex-direction: column;
     margin-top: 31px;
     margin-bottom: 51px;
     justify-content: center;
@@ -54,10 +53,13 @@
 
   .copyright__email {
     margin-right: 0;
+    margin-left: 50px;
   }
 
   .copyright__number {
     line-height: 32px;
     margin-top: 22px;
+    text-align: center;
+    margin-left: 62px;
   }
 }

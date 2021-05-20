@@ -75,7 +75,7 @@
 
   .video-bicycle p {
     width: 429px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
 
   .video-bicycle__presentation {
@@ -102,7 +102,7 @@
 @media (max-width: $mobile-width) and (min-width: 320px) {
   .video-bicycle {
     min-height: 384px;
-    padding-top: 84px;
+    padding-top: 86px;
     background: linear-gradient($black-gray 384px, $white 49px);
   }
 
@@ -132,12 +132,5 @@
   .video-bicycle__icon-play {
     width: 65px;
     height: 65px;
-  }
-}
-
-
-@media (max-width: $desktop-width) and (min-width: 320px) {
-  .video-bicycle h2 {
-    font-size: calc(24px + (30 - 24) * ((100vw - 320px) / (1200 - 320)));
   }
 }
