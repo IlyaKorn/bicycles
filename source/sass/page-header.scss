@@ -2,31 +2,41 @@
   background-color: #171717;
   background-image: url("../image/header-bike-desktop.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
   width: 1440px;
-  height: 825px;
+  min-height: 825px;
   margin: 0 auto;
   position: relative;
 }
 
 .page-header__logo {
   position: absolute;
-  top: 318px;
-  left: 280px;
+  top: 312px;
+  left: 281px;
+}
+
+.page-header__info {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 @media (max-width: $tablet-width) {
   .page-header {
     width: 767px;
-    height: 340px;
+    background: linear-gradient(#171717, $white);
     background-image: url("../image/header-bike-tablet.jpg");
+    background-repeat: no-repeat;
     margin: 0 auto;
     overflow: hidden;
+    background-size: 100% 50%;
   }
 
   .page-header__logo {
     left: 20px;
     top: 20px;
+  }
+
+  .page-header__info {
+    flex-direction: column;
   }
 }
 
@@ -35,7 +45,7 @@
     width: 320px;
     min-height: 390px;
     background-image: url("../image/header-bike-mobile.jpg");
-    background-size: cover;
+    background-size: 100% 50%;
     margin: 0 auto;
   }
 

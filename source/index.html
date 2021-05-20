@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>MooN</title>
-  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="page-body">
   <header class="page-header">
@@ -36,7 +36,7 @@
               <use xlink:href="image/sprite.svg#icon-arrow-right"></use>
             </svg>
           </li>
-          <li class="site-list__item">
+          <li class="site-list__item site-list__item">
             <a class="site-list__link"  href="#copyright-anchor">
               Контакты
             </a>
@@ -48,23 +48,25 @@
         <button type="button" class="main-nav__open-menu visually-hidden"><span class="visually-hidden">Открыть меню</span></button>
       </div>
     </nav>
-    <a class="page-header__logo" href="#">
+    <a class="page-header__logo">
       <img class="page-header__image" src="image/logo.svg" width="68" height="20" alt="Логотип сайта Мун">
     </a>
-    <div class="magazine" id="magazine-anchor">
-      <h1 class="magazine__title">Мы продаем велосипеды</h1>
-      <p class="magazine__description">Наш магазин отбирает только самые лучшие велосипеды для продажи</p>
-    </div>
-  </header>
-    <main class="page-main">
+    <div class="page-header__info">
+      <div class="magazine" id="magazine-anchor">
+        <h1 class="magazine__title">Мы продаем велосипеды</h1>
+        <p class="magazine__description">Наш магазин отбирает только самые лучшие велосипеды для продажи</p>
+      </div>
       <form class="feedback" action="https://echo.htmlacademy.ru" method="POST">
         <p class="feedback__title">Заполните поля ниже и мы подберем велосипед Вашей мечты</p>
         <input id="name" type="text" placeholder="Введите Ваше Имя" required>
         <label for="name" class="visually-hidden">Введите Имя</label>
-        <input id="email" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Введите Ваш номер телефона" maxlength="11" required>
+        <input class="input-email" id="email" type="tel" placeholder="Введите Ваш номер телефона" required>
         <label for="email" class="visually-hidden">Введите Email</label>
         <button type="submit" aria-label="Отправить форму">Подобрать велосипед мечты</button>
       </form>
+    </div>
+  </header>
+    <main class="page-main">
       <div class="advantages">
         <h2 class="advantages__title">Несколько фактов о нас</h2>
         <ul class="advantages__list">
@@ -166,6 +168,7 @@
         </svg>
       </a>
     </footer>
-  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/imask"></script>
+  <script async src="js/script.js"></script>
 </body>
 </html>

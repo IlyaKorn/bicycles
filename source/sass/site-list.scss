@@ -2,15 +2,12 @@
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .site-list__item {
   padding-top: 21px;
   padding-bottom: 9px;
-}
-
-.site-list__item:not(:last-child) {
-  margin-right: 135px;
 }
 
 .site-list__link {
@@ -90,6 +87,8 @@
     z-index: 101;
     margin: 0;
     margin-bottom: 30px;
+    font-size: 20px;
+    padding-top: 97px;
   }
 
   .site-list--nojs .site-list__item:first-child {

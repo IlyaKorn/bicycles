@@ -2,9 +2,6 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  position: absolute;
-  right: 280px;
-  top: 305px;
 }
 
 .feedback p {
@@ -52,7 +49,6 @@
 
 @media (max-width: $tablet-width) {
   .feedback {
-    position: static;
     margin: 0 auto;
     max-width: 321px;
   }

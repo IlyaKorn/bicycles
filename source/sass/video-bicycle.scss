@@ -1,7 +1,7 @@
 .video-bicycle {
   width: 100%;
   min-height: 706px;
-  background: $black-gray;
+  background: linear-gradient($black-gray 706px, $white 98px);
   padding-top: 120px;
   position: relative;
   box-sizing: border-box;
@@ -31,6 +31,7 @@
   width: 340px;
   margin: 0 auto;
   margin-top: 20px;
+  margin-bottom: 56px;
 }
 
 .video-bicycle__presentation {
@@ -38,9 +39,8 @@
   height: 522px;
   background: url("../image/bike-preview-desktop.png");
   background-color: #171717;
-  position: absolute;
-  left: 256px;
-  top: 282px;
+  position: relative;
+  margin: 0 auto;
 }
 
 .video-bicycle__button {
@@ -65,6 +65,7 @@
   .video-bicycle {
     min-height: 413px;
     padding-top: 70px;
+    background: linear-gradient($black-gray 413px, $white 85px);
   }
 
   .video-bicycle h2 {
@@ -74,6 +75,7 @@
 
   .video-bicycle p {
     width: 429px;
+    margin-bottom: 50px;
   }
 
   .video-bicycle__presentation {
@@ -81,8 +83,6 @@
     height: 282px;
     background: url("../image/bike-preview-tablet.png");
     margin: 0 auto;
-    left: 133px;
-    top: 216px;
   }
 
   .video-bicycle__button {
@@ -103,6 +103,7 @@
   .video-bicycle {
     min-height: 384px;
     padding-top: 84px;
+    background: linear-gradient($black-gray 384px, $white 49px);
   }
 
   .video-bicycle h2 {
@@ -111,6 +112,7 @@
 
   .video-bicycle p {
     width: 288px;
+    margin-bottom: 50px;
   }
 
   .video-bicycle__presentation {
@@ -118,8 +120,6 @@
     height: 162px;
     background: url("../image/bike-preview-mobile.png");
     margin: 0 auto;
-    left: 16px;
-    top: 271px;
   }
 
   .video-bicycle__button {
@@ -132,5 +132,12 @@
   .video-bicycle__icon-play {
     width: 65px;
     height: 65px;
+  }
+}
+
+
+@media (max-width: $desktop-width) and (min-width: 320px) {
+  .video-bicycle h2 {
+    font-size: calc(24px + (30 - 24) * ((100vw - 320px) / (1200 - 320)));
   }
 }
