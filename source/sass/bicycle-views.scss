@@ -141,9 +141,12 @@
 }
 
 @media (max-width: $mobile-width) and (min-width: 320px) {
+  .bicycle-views__list {
+    margin-bottom: 41px;
+  }
+
   .bicycle-views {
     margin-top: 77px;
-    min-height: 1319px;
   }
 
   .bicycle-views-icon-circle {

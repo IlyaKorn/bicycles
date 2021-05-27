@@ -51,6 +51,11 @@
     justify-content: center;
   }
 
+  .copyright__email,
+  .copyright__number {
+    margin-bottom: 17px;
+  }
+
   .copyright__email {
     margin-right: 0;
     margin-left: 50px;
@@ -58,7 +63,6 @@
 
   .copyright__number {
     line-height: 32px;
-    margin-top: 22px;
     text-align: center;
     margin-left: 62px;
   }

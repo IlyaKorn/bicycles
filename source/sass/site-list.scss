@@ -91,6 +91,10 @@
     padding-top: 97px;
   }
 
+  .site-list--nojs .site-list__item {
+    width: 100%;
+  }
+
   .site-list--nojs .site-list__item:first-child {
     margin-top: 0;
   }
