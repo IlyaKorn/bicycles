@@ -51,7 +51,7 @@
 
   .site-list .site-list__item {
     background-color: $beige;
-    width: 320px;
+    width: 100%;
     box-sizing: border-box;
     height: 60px;
     margin: 0;
@@ -82,13 +82,17 @@
     min-height: 568px;
     background-color: $white;
     display: block;
-    position: relative;
     width: 100%;
-    z-index: 101;
     margin: 0;
     margin-bottom: 30px;
     font-size: 20px;
     padding-top: 97px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 10000;
+    overflow: auto;
   }
 
   .site-list--nojs .site-list__item {
