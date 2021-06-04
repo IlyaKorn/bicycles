@@ -1,5 +1,5 @@
 .page-header {
-  width: 1440px;
+  width: 879px;
   margin: 0 auto;
   position: relative;
   padding-bottom: 220px;
@@ -10,13 +10,13 @@
   background-color: #171717;
   background-image: url("../image/header-bike-desktop.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 825px;
 }
 
 .page-header__logo {
   position: absolute;
-  top: 312px;
-  left: 281px;
+  top: 318px;
+  left: 0;
 }
 
 .page-header__info {
